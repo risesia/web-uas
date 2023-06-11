@@ -1,0 +1,74 @@
+<!-- <?php
+session_start();
+if (!isset($_SESSION["user"])) {
+   header("Location: index.php");
+}
+?> -->
+<!--user session is disabled for this dev branch-->
+<!--as I didn't know how to set up the db-->
+
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QUIZZ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div
+        class="responsive-padding responsive-flex flex-nowrap align-items-center justify-content-center gap-5"
+      >
+        <div
+          class="d-flex flex-column responsive-text gap-2"
+          style="max-width: 35ch"
+        >
+          <h1 class="text-secondary responsive-font fw-semibold fs-1">
+            Ayo <span class="text-primary">semangat</span> ikutin quiznya ya!
+          </h1>
+          <p class="text-secondary responsive-font fw-regular fs-5">
+            Disini kamu bisa belajar mengenai materi dan langsung mengerjakan
+            quiz.
+          </p>
+          <div class="responsive-button d-flex flex-row gap-3">
+            <a class="btn btn-primary" type="button" href="quizz.html">Quizz</a>
+            <a class="btn btn-outline-primary" type="button" href="materi.html"
+              >Materi</a
+            >
+            <a class="btn btn-outline-primary" type="button" href="about.html"
+              >Tentang</a
+            >
+            <a class="btn btn-outline-secondary" type="button" href="logout.php"
+              >Logout</a
+            >
+          </div>
+        </div>
+
+        <img
+          class="responsive-logo"
+          src="./assets/unimed.png"
+          alt="logo unimed"
+        />
+      </div>
+    </main>
+
+    <!-- audio played troughout the quiz -->
+    <audio autoplay loop>
+      <source src="assets/bcksnd.mp3" type="audio/mp3" />
+    </audio>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

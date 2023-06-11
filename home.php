@@ -4,7 +4,7 @@
 //   header("Location: index.php");
 //}
 //?>
-<!--user session is disabled for dev branch-->
+<!--user session is disabled for this dev branch-->
 <!--as I didn't know how to set up the db-->
 
 <!DOCTYPE html>
@@ -31,6 +31,7 @@
     <div class="home d-grid gap-2 col-3 mx-auto">
         <a class="btn my-4 btn-lg" type="button" href="materi.html">Materi</a>
         <a class="btn my-4 btn-lg" type="button" href="quizz.html">Quizz</a>
+        <a class="btn my-4 btn-lg" type="button" href="about.html">About us</a>
     </div>
 </div>
 
